@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    size: 350px 596px;
+    width: 350px;
+    height: 596px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 4px 50px 50px rgba(8, 19, 28, 0.3);
+}
+
+.transition {
+    transition: 200ms cubic-bezier(.77,.01,.97,.98);
+}
+
+.front {
+    height: 302px;
+    width: 302px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.icon {
+    height: 44px;
+    padding: 129px;
+}
+
+.card .img-top {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    /*height: 302px;*/
+    /*width: 302px;*/
+    top: 0;
+    left: 0;
+}
+
+.card:hover .img-top {
+    display: inline;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    margin: 24px 145px 16px 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin: 0 24px 25px;
+    font-weight: 200;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+.eth {
+    width: 11px;
+    height: 18px;
+    margin-right: 7px;
+}
+
+.prise {
+    color: hsl(178, 100%, 50%);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+}
+
+.clock {
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    margin-left: 111px;
+    margin-right: 9px;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: right;
+    margin: 0;
+}
+
+hr {
+    color: black;
+    border: 1px solid #2E405A;
+    border-radius: 30%;
+    width: 304px;
+    margin: 26px 0 0;
+}
+
+.avatar {
+    height: 31px;
+    width: 31px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-top: 17px;
+    margin-right: 17px;
+    margin-bottom: 9px;
+}
+
+.info {
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 22px;
+}
+
+.name {
+    margin: 0;
+    padding-left: 3px;
+    font-weight: 300;
+    color: white;
+    font-size: 16px;
+    padding-top: 22px;
+    cursor: pointer;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
