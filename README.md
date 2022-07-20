@@ -5,7 +5,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -21,8 +20,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://)
-- Live Site URL: [Site](https://)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/flexbox-nft-preview-card-component-T_NEqtv5wd)
+- Live Site URL: [Site](https://nft-preview-card-component-main-zogxo.vercel.app/)
 
 ## My process
 
